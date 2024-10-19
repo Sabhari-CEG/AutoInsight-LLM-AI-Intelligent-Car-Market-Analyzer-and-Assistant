@@ -197,18 +197,18 @@ This analysis demonstrates the car assistant's ability to provide detailed insig
 
 This query result, while not providing specific car data, offers valuable insights into the limitations of the current dataset and highlights potential areas for expansion to better serve users interested in electric vehicles and newer car models.
 
-##Human Redable interpretation result from LLM
+## Human Redable interpretation result from LLM
 
-Popular Makes Analysis:
+### Popular Makes Analysis:
 The top 5 car makes in the dataset are {'Ford': 93554, 'Chevrolet': 60197, 'Nissan': 53946, 'Toyota': 39871, 'Dodge': 30710}. What insights can we draw from this information about market preferences?
 
-Car Trend Predictions
+### Car Trend Predictions
 
 There are many factors that can affect the car's performance. First, the market is very competitive and will likely react in different ways. Second, it is difficult to predict what kind of car is likely to win or what kind of car will lose. Finally, cars with low margins or poor performance will have less of an impact on the market.
 
 By analyzing the data, we can make predictions about the market's performance that will help us to improve our
 
-Condition Impact Analysis:
+### Condition Impact Analysis:
 The average selling prices by condition rating are {1.0: 3923.135931558935, 2.0: 5691.410437710438, 3.0: 12275.28541010924, 4.0: 17724.538901716696, 5.0: 24724.724915344857, 11.0: 4504.482758620689, 12.0: 3820.7894736842104, 13.0: 3554.878048780488, 14.0: 3323.8805970149256, 15.0: 3913.5416666666665, 16.0: 4386.23595505618, 17.0: 4074.8971193415637, 18.0: 4584.05572755418, 19.0: 5082.002530986848, 21.0: 7330.597673660181, 22.0: 7616.581310879974, 23.0: 8062.063873961895, 24.0: 8361.518014153979, 25.0: 8839.977386734612, 26.0: 9174.055662832676, 27.0: 9643.028195718654, 28.0: 10198.823434322365, 29.0: 10756.953455198647, 31.0: 11652.596725222294, 32.0: 11869.520277052801, 33.0: 12218.919672285527, 34.0: 12726.135942978675, 35.0: 13370.993046728972, 36.0: 14090.140295540961, 37.0: 14859.704911712546, 38.0: 15446.297495059553, 39.0: 15986.739106425703, 41.0: 17333.66640662246, 42.0: 17934.611476487997, 43.0: 18613.73810001203, 44.0: 19222.363604295682, 45.0: 20021.23324941119, 46.0: 20526.675241412064, 47.0: 20724.81457995576, 48.0: 20816.61525231616, 49.0: 20917.310908672613, 50.0: 21024.06744146779, 51.0: 21222.03917133814, 52.0: 21258.97939092912, 53.0: 21311.5390909097, 54.0
 
 
