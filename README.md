@@ -90,3 +90,45 @@ These insights help potential buyers make informed decisions by understanding th
 3. Integrate more advanced ML models for price prediction
 4. Enhance the LLM's training for more accurate and specific car-related queries
 
+## Sample Query and Results
+
+### Query
+"I want to buy a audi a4"
+![Audi A4 Query](q1.png)
+
+### Results
+![Audi A4 Query Results](q1_res.png)
+
+#### Average Statistics for Audi A4:
+- Average Year: 2008
+- Average Condition: 29.4/5
+- Average Odometer: 75,397 miles
+- Average Price: $12,476.40
+
+#### Top 5 Suggestions:
+1. 2015 Audi A4: Condition 49.0/5, Odometer 10,559.0 miles, Price $27,400.00
+2. 2015 Audi A4: Condition 49.0/5, Odometer 2,365.0 miles, Price $28,000.00
+3. 2015 Audi A4: Condition 49.0/5, Odometer 7,136.0 miles, Price $30,250.00
+4. 2015 Audi A4: Condition 48.0/5, Odometer 4,164.0 miles, Price $30,400.00
+5. 2015 Audi A4: Condition 46.0/5, Odometer 3,827.0 miles, Price $29,500.00
+
+### Interpretation
+
+1. **Market Overview**: The average Audi A4 in the dataset is from 2008, indicating a mix of older and newer models. The average price of $12,476.40 reflects this mix of model years.
+
+2. **Condition Discrepancy**: There's a significant difference between the average condition (29.4/5) and the conditions of the top suggestions (46-49/5). This suggests that newer models are generally in much better condition, or there might be an issue with condition scoring for older models.
+
+3. **Mileage Impact**: The average odometer reading of 75,397 miles is considerably higher than the top suggestions (all under 11,000 miles). This indicates that mileage significantly influences the car's value and ranking in suggestions.
+
+4. **Price Range**: There's a large gap between the average price ($12,476.40) and the prices of top suggestions ($27,400 - $30,400). This emphasizes the premium placed on newer, low-mileage models.
+
+5. **Model Year Preference**: All top suggestions are from 2015, indicating a strong preference or availability for this specific year in the high-end Audi A4 market.
+
+6. **Condition vs. Price**: Among the top suggestions, there isn't a strict correlation between condition and price. For example, the highest-priced car ($30,400) isn't the highest-rated in condition, suggesting other factors (like specific features or trim levels) may influence pricing.
+
+7. **Mileage Sensitivity**: Within the top suggestions, even small differences in mileage seem to affect pricing. For instance, the lowest-mileage car (2,365 miles) isn't the most expensive, indicating that factors beyond just mileage influence the high-end market.
+
+This analysis demonstrates the car assistant's ability to provide a comprehensive market overview, from average statistics to top-tier options, allowing users to make informed decisions based on their preferences for model year, condition, mileage, and price.
+
+
+
